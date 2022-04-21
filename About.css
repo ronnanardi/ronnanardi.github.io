@@ -38,7 +38,6 @@ body{
 	order: 2;
 	flex: 1;
 	position: relative;
-	z-index: 999;
 }
 .navbar .kolomkedua ul{
 	display: flex;
@@ -73,6 +72,7 @@ body{
 	top: 8px;
 	left: 80%;
 	height: 25px;
+	z-index: 999;
 }
 .menu-toggle span{
 	display: block;
