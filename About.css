@@ -1,3 +1,6 @@
+html, body{
+	overflow-x: hidden;
+}
 body{
     background-color: #091035;
     overflow-x: hidden;
@@ -18,6 +21,7 @@ body{
 	color: white;
 	box-sizing: border-box;
 	background-color: #000024;
+	z-index: 998;
 }
 .navbar .kolomutama{
 	order: 1;
@@ -34,11 +38,13 @@ body{
 	order: 2;
 	flex: 1;
 	position: relative;
+	z-index: 999;
 }
 .navbar .kolomkedua ul{
 	display: flex;
 	justify-content: space-evenly;
     margin-top: 20px;
+	z-index: 997;
 }
 .navbar .kolomkedua ul li{
 	width: 90px;
