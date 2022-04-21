@@ -8,7 +8,6 @@ body{
 	font-family: 'montserrat', sans-serif;
 }
 
-
 /*navbar*/
 .navbar{
 	width: 100%;
@@ -17,8 +16,9 @@ body{
 	display: flex;
 	justify-content: center;
 	color: white;
-	position: absolute;
+	position: relative;
 	box-sizing: border-box;
+	background-color: #091035;
 }
 .navbar .kolomutama{
 	order: 1;
@@ -34,6 +34,7 @@ body{
 .navbar .kolomkedua {
 	order: 2;
 	flex: 1;
+	position: relative;
 }
 .navbar .kolomkedua ul{
 	display: flex;
@@ -122,10 +123,12 @@ body{
 .herosection .container{
 	display: flex;
 	width: 100%;
+	margin-bottom: 60px;
 }
 .herosection .teks{
 	flex: 1;
 	order: 1;
+	margin-top: -50px;
 }
 .herosection .tekslogo{
 	flex: 1;
@@ -162,27 +165,27 @@ body{
 }
 .clip-path .wave.wave1{
 	animation: animate 30s linear infinite;
-	z-index: 1000;
+	z-index: 4;
 	opacity: 1;
 	animation-delay: 0s;	
 }
 .clip-path .wave.wave2{
 	animation: animate2 15s linear infinite;
-	z-index: 999;
+	z-index: 3;
 	opacity: 0.5;
 	animation-delay: -5s;	
 	bottom: 10px;
 }
 .clip-path .wave.wave3{
 	animation: animate 30s linear infinite;
-	z-index: 998;
+	z-index: 2;
 	opacity: 0.2;
 	animation-delay: -2s;	
 	bottom: 15px;
 }
 .clip-path .wave.wave4{
 	animation: animate2 5s linear infinite;
-	z-index: 997;
+	z-index: 1;
 	opacity: 0.7;
 	animation-delay: -2s;	
 	bottom: 20px;
@@ -367,20 +370,20 @@ footer{
 	border-radius: 10px;
 	}
 	.menu-toggle{
-		z-index: 999;
+		z-index: 7;
 	}
 	.navbar .kolomkedua{
-		z-index: 998;
+		z-index: 6;
 	}
 	.navbar .kolomkedua ul{
 		position: absolute;
-		top: 0;
+		top: -30px;
 		right: 0;
 		flex-direction: column;
 		justify-content: space-evenly;
 		align-items: center;
+		width: 80vw;
 		height: 100vh;
-		width: 80%;
 		background-color: blue;
 		transform: translateX(100%);
 		margin: 0 0;
@@ -406,6 +409,10 @@ footer{
 	.container3{
 		height: 820px;
 		background-color: #091035;
+	}
+	.herosection .teks{
+		padding-left: 20px;
+		padding-right: 20px;
 	}
 	.herosection .tekslogo{
 		display: none;
