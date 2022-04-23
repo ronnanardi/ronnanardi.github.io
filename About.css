@@ -21,6 +21,7 @@ body{
 	box-sizing: border-box;
 	background-color: #000024;
 	z-index: 998;
+	position: fixed;
 }
 .navbar .kolomutama{
 	order: 1;
@@ -107,6 +108,7 @@ body{
 /* webBuildBy */
 .container1{
 	padding: 50px 0 50px 0;
+	margin-top: 96px;
 }
 .container1 .gambar {
 	display: flex;
@@ -216,7 +218,7 @@ footer{
 	display: flex;
 	align-items: center;
 	justify-content: center;
-	margin-top: 100vh;
+	margin-top: 50vh;
 }
 /* end-footer */
 

@@ -21,6 +21,8 @@ body{
 	position: relative;
 	box-sizing: border-box;
 	background-color: #091035;
+	position: fixed;
+	z-index: 10;
 }
 .navbar .kolomutama{
 	order: 1;
@@ -130,7 +132,7 @@ body{
 .herosection .teks{
 	flex: 1;
 	order: 1;
-	margin-top: -50px;
+	margin-top: -30px;
 }
 .herosection .tekslogo{
 	flex: 1;
@@ -373,6 +375,9 @@ footer{
 	}
 	.menu-toggle{
 		z-index: 7;
+	}
+	.navbar{
+		padding-bottom: 20px;
 	}
 	.navbar .kolomkedua{
 		z-index: 6;
